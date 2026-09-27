@@ -166,12 +166,4 @@ python test_e2e_scenarios.py
 
 ---
 
-## ⚠️ Limitations & System Freeze Notice
-
-- **System Freeze**: As per Phase 2A requirements, core functionality is frozen:
-  - **No ML model integration** at this stage.
-  - **No OCR** or document image scanning.
-  - **No Deepfake / Image forensics** (deferred to Phase 2B).
-  - **No Browser extensions** or social sharing packages (deferred to Phase 3).
-  - **Database remains SQLite** (`truthlens.db`).
 - **Fact-Check Coverage**: Google Fact Check Tools indexes registered IFCN fact-checking organizations. Very recent breaking events (unfolding in the past few hours) may not yet have an accredited fact-check entry; TruthLens AI appropriately flags unverified assertions as `Needs Verification`.
